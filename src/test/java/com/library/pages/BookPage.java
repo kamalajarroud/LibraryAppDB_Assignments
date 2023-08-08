@@ -40,8 +40,8 @@ public class BookPage extends BasePage {
     @FindBy(name = "isbn")
     public WebElement isbn;
 
-    //@FindBy(id = "book_group_id")
-    @FindBy(id = "book_categories")
+    @FindBy(id = "book_group_id")
+    //@FindBy(id = "book_categories")
 
     public WebElement categoryDropdown;
 
