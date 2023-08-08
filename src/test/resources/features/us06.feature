@@ -17,4 +17,7 @@ Feature: Books module
     Examples:
       | Book Name             | ISBN     | Year | Author          | Book Category        |
       | Head First Java       | 10112021 | 2021 | Kathy Sierra    | Action and Adventure |
-      | The Scrum Field Guide | 11112021 | 2006 | Mitch Lacey     | Short Story          |
+      | The Scrum Field Guide | 11112021 | 2006 | Mitch Lacey     |    short story      |
+
+      # create your own book to be unique  instead of
+

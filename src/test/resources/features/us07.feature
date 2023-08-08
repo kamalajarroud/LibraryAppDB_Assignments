@@ -9,3 +9,5 @@ Feature: Books module
     When the user clicks Borrow Book
     Then verify that book is shown in "Borrowing Books" page
     And  verify logged student has same book in database
+
+    # login as student

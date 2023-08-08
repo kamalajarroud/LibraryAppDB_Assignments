@@ -9,5 +9,6 @@ public class BorrowedBooksPage extends BasePage{
 
 
     @FindBy(xpath = "//tbody//td[2]")
+    //@FindBy(id="borrowed_books")
     public List<WebElement> allBorrowedBooksName;
 }
